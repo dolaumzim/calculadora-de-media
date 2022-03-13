@@ -1,0 +1,101 @@
+body {
+    font-family: 'Comic Sans MS',monospace;
+    min-height: 400px;
+    background-image: url("https://uploads.metropoles.com/wp-content/uploads/2016/12/06094016/matem%C3%A1tica.jpg");
+    background-color: #000000;
+    background-size: 80vh;
+    background-position: 50% 33%;
+    background-repeat: no-repeat;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .dolaumzim {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: scaleX(-1);
+  }
+  
+  ::placeholder{
+    color: grey;
+    opacity: 0.5;
+  }
+  
+  button {
+    font-size: 16px;
+    margin-top: 12px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #ffffff;
+  }
+  
+  .aribbon-highlight{
+    position:relative;
+    margin:0.1em;
+  }
+  .aribbon-highlight:before{
+    content:"";
+    z-index:-1;
+    left:-0.8em;
+    top:0.1em;
+    border-width:0.7em;
+    border-style:solid;
+    border-color:green;
+    position:absolute;
+    width:105%;
+    border-left-color:transparent;
+    border-right-color:transparent;
+  }
+  
+  .rribbon-highlight{
+    position:relative;
+    margin:0.1em;
+  }
+  .rribbon-highlight:before{
+    content:"";
+    z-index:-1;
+    left:-0.8em;
+    top:0.1em;
+    border-width:0.7em;
+    border-style:solid;
+    border-color:red;
+    position:absolute;
+    width:105%;
+    border-left-color:transparent;
+    border-right-color:transparent;
+  }
+  
+  .highlight {
+    background-color: white;
+  }
